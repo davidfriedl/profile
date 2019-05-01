@@ -59,6 +59,7 @@ a:hover {
   background-color: rgb(244,244,244);
   width: 700px;
   margin: 12px auto;
+  margin-left: 130px;
   text-align: center;
   padding: 30px;
   border-radius: 4px;
@@ -102,6 +103,7 @@ a:hover {
   background-color: rgb(244,244,244);
   width: 740px;
   margin: 12px auto;
+  margin-left: 130px;
   text-align: center;
   padding-bottom: 0px;
   padding: 10px;
@@ -149,4 +151,34 @@ a:hover {
   .container {
     width: 300px;
   }
+}
+
+
+#navigation-icons {
+  list-style: none;
+  padding: 0;
+}
+
+#navigation-icons i {
+  font-size: 25px;
+  line-height: 60px;
+}
+
+#navigation-icons > li {
+  display: inline-block;
+  list-style: none;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+#top-navigation-bar{
+  background-color: rgb(244,244,244);
+  width: 700px;
+  margin: 10px auto;
+  margin-left: 130px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
 }
